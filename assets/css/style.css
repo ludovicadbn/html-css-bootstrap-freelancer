@@ -1,8 +1,25 @@
-.row.bg_greenblue .bi-star-fill,
-.row.bg_greenblue h1,
-.row.bg_greenblue h2,
-.row.bg_greenblue span{
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-fluid.bg_greenblue .bi-star-fill,
+.container-fluid.bg_greenblue h1,
+.container-fluid.bg_greenblue h2,
+.container-fluid.bg_greenblue span,
+.container-fluid.bg_blue_jeans span,
+.container-fluid span,
+.container-fluid.bg_blue span{
     color: var(--bs-white);
+}
+
+._t_decoration_none{
+    text-decoration: none;
+}
+
+.f_greenblue{
+    color: #1abc9c !important;
 }
 
 .row.bg_greenblue ._hr{
@@ -15,6 +32,20 @@
 
 .bg_greenblue{
     background-color: #1abc9c;
+}
+
+.bg_blue_jeans{
+    background-color: #3a546d;
+}
+
+.btn_greenblue{
+    background-color: #1abc9c;
+    color: #fff;
+    border-color: #1abc9c;
+}
+
+.fs_7{
+    font-size: 0.7rem;
 }
 
 ._hr{
