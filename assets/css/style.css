@@ -4,13 +4,13 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.container-fluid.bg_greenblue .bi-star-fill,
-.container-fluid.bg_greenblue h1,
-.container-fluid.bg_greenblue h2,
-.container-fluid.bg_greenblue span,
-.container-fluid.bg_blue_jeans span,
+.row.bg_greenblue .bi-star-fill,
+.row.bg_greenblue h1,
+.row.bg_greenblue h2,
+.row.bg_greenblue span,
+.row.bg_blue_jeans span,
 .container-fluid span,
-.container-fluid.bg_blue span{
+.row.bg_blue span{
     color: var(--bs-white);
 }
 
