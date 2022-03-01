@@ -54,3 +54,9 @@
     background-color: var(--bs-dark);
     border-radius: 50px;
 }
+
+._form input,
+._form textarea{
+    border: none;
+    border-bottom: 1px solid gray;
+}
